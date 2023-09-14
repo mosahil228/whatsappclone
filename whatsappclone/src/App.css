@@ -1,0 +1,951 @@
+.offlineDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.offlineDiv .offline {
+  background: #fff;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 2.5rem;
+  height: -moz-max-content;
+  height: max-content;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.offlineDiv .offline h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+.offlineDiv .offline p {
+  font-size: 1.6rem;
+}
+
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main-page .spinner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.main-page .spinner img:nth-child(1) {
+  width: 80px;
+  height: 100%;
+}
+.main-page .spinner img:nth-child(2) {
+  width: 25px;
+  height: 100%;
+}
+.main-page .main-item {
+  display: flex;
+  margin: 0 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+.main-page .main-item img {
+  width: 30rem;
+  height: 100%;
+}
+.main-page .main-item .heading {
+  margin-top: 2.5rem;
+  font-size: 3rem;
+}
+.main-page .main-item .muiBtn {
+  background-color: #037F67;
+  font-size: 1.5rem;
+  padding: 0 3rem;
+  border-radius: 4rem;
+  width: 30rem;
+  height: 4rem;
+  margin-top: 1rem;
+  text-transform: initial;
+}
+.main-page .main-item .language {
+  background-color: #F7F8FA;
+  border-radius: 2rem;
+  margin: 3rem 0;
+}
+.main-page .main-item .language span {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem 1.4rem;
+  font-size: 2rem;
+  color: #037F67;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.main-page .main-item .sub-heading {
+  font-size: 20px;
+  color: rgb(86, 85, 85);
+  text-align: center;
+}
+.main-page .main-item .sub-heading a {
+  text-decoration: none;
+  color: #187FA8;
+}
+
+.verification-section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+.verification-section .vDiv {
+  margin: 2rem 2rem 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.verification-section .vDiv .muiBtn2 {
+  background-color: #037F67;
+  font-size: 1.5rem;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  text-transform: initial;
+}
+.verification-section .vDiv .vItems {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+}
+.verification-section .vDiv .vItems .vHeading {
+  color: #037F67;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.verification-section .vDiv .vItems .vSubHeading {
+  font-size: 20px;
+  text-align: center;
+}
+.verification-section .vDiv .vItems .vSubHeading a {
+  text-decoration: none;
+}
+.verification-section .vDiv .vItems .vSubHeading .refreshBtn {
+  color: #187FA8;
+  cursor: pointer;
+  text-decoration: none;
+}
+.verification-section .vDiv .vItems .vSubHeading2 {
+  font-size: 1.8rem;
+  color: rgb(86, 85, 85);
+}
+.verification-section .vDiv .vItems .vSubHeading2 span {
+  font-weight: bold;
+}
+.verification-section .vDiv .vItems .vSubHeading3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: rgb(86, 85, 85);
+}
+.verification-section .vDiv .vItems .vCountry {
+  font-size: 2.3rem;
+  line-height: 4rem;
+  border-bottom: 2px solid #037F67;
+}
+.verification-section .vDiv .vItems .vBox {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  height: 100%;
+  flex-direction: column;
+}
+.verification-section .vDiv .vItems .vBox .muiBtn:disabled {
+  background-color: #fff;
+  border: 2px solid #037F67;
+  color: #037F67;
+  font-size: 1.5rem;
+  padding: 0 3rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 4rem;
+  width: 30rem;
+  height: 4rem;
+  margin-top: 1rem;
+  text-transform: initial;
+}
+.verification-section .vDiv .vItems .vBox .muiBtn {
+  background-color: #037F67;
+  font-size: 1.5rem;
+  padding: 0 3rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 4rem;
+  width: 30rem;
+  height: 4rem;
+  margin-top: 1rem;
+  text-transform: initial;
+}
+.verification-section .vDiv .vItems .vBox .inputBox {
+  display: flex;
+  gap: 1rem;
+}
+.verification-section .vDiv .vItems .vBox .inputBox input:nth-child(3) {
+  margin-right: 1rem;
+}
+.verification-section .vDiv .vItems .vBox .inputBox input:nth-child(4) {
+  margin-left: 1rem;
+}
+.verification-section .vDiv .vItems .vBox .inputBox input {
+  border-top: none;
+  border-left: none;
+  text-align: center;
+  border-right: none;
+  outline: none;
+  background: #fff;
+  width: 2rem;
+  line-height: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  caret-color: #037F67;
+  border-color: rgb(86, 85, 85);
+  margin-bottom: 10px;
+}
+.verification-section .vDiv .vItems .vBox form {
+  display: flex;
+  width: 60%;
+  height: 100%;
+}
+.verification-section .vDiv .vItems .vBox .vInput {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.verification-section .vDiv .vItems .vBox .vInput .vFlex {
+  display: flex;
+  justify-content: space-between;
+}
+.verification-section .vDiv .vItems .vBox .vInput .vFlex input {
+  border: none;
+  outline: none;
+  width: 70%;
+  font-size: 2rem;
+  caret-color: #037F67;
+  border-bottom: 3px solid #037F67;
+}
+.verification-section .vDiv .vItems .vBox .vInput span {
+  font-size: 2rem;
+  line-height: 4rem;
+  margin-right: 1rem;
+  border-bottom: 2px solid #037F67;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.verification-section .vDiv .vItems .vBox .vCountry {
+  width: 60%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.vProfileDiv .profileBox {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: #F1F2F4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vProfileDiv .profileBox svg {
+  width: 50px;
+  height: 100%;
+  color: rgb(163, 163, 163);
+}
+.vProfileDiv .profileBox img {
+  width: 10rem;
+  height: 100%;
+}
+.vProfileDiv .vProfilemain {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+.vProfileDiv .vProfilemain form {
+  width: 80% !important;
+}
+.vProfileDiv .vProfilemain .vFlex2 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+.vProfileDiv .vProfilemain .vFlex2 input[type=file] {
+  display: none;
+}
+.vProfileDiv .vProfilemain .vFlex2 input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 2rem;
+  line-height: 4rem;
+  caret-color: #037F67;
+  border-bottom: 3px solid #037F67;
+}
+.vProfileDiv .vSubHeading {
+  color: rgb(86, 85, 85);
+  text-align: center;
+}
+
+.z-index {
+  z-index: 100;
+}
+
+.d-hide {
+  display: none;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.diologFlex {
+  display: flex;
+}
+
+.diologFlex2 {
+  padding: 1.2rem 2.4rem !important;
+}
+
+.dAction {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dContent2 {
+  font-weight: bold !important;
+}
+
+.dContent {
+  font-size: 2rem !important;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.dContent .roller {
+  display: flex;
+}
+.dContent .roller img {
+  width: 50px;
+  height: 100%;
+}
+
+.dButton {
+  color: #037F67 !important;
+  text-transform: initial !important;
+}
+
+.cHeader {
+  background-color: #E3E2DE;
+  height: 100vh;
+  width: 100%;
+}
+.cHeader .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 127px;
+  background-color: #00a884;
+}
+.cHeader .chatBox {
+  width: 100%;
+  position: fixed;
+  top: 19px;
+  max-width: 1500px;
+  background-color: #fff;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: calc(100% - 38px);
+  z-index: 100;
+  box-shadow: 0 6px 18px rgba(11, 20, 26, 0.05);
+  display: flex;
+}
+.cHeader .chatBox .leftChat {
+  flex: 0 0 30%;
+  max-width: 30%;
+  overflow: hidden;
+  position: relative;
+}
+.cHeader .chatBox .leftChat .profileMenu {
+  width: 100%;
+  height: 100%;
+  background-color: #f9fafc;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  transition: all 0.1s ease-in;
+}
+.cHeader .chatBox .leftChat .profileMenu .profileHeader {
+  background-color: #037F67;
+  height: 100px;
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  gap: 2rem;
+  color: #fff;
+  font-size: 19px;
+  padding: 2rem;
+}
+.cHeader .chatBox .leftChat .profileMenu .profilePhotoDiv {
+  height: 20rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+.cHeader .chatBox .leftChat .profileMenu .profilePhotoDiv .profilePhoto {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #E3E2DE;
+}
+.cHeader .chatBox .leftChat .profileMenu .profilePhotoDiv .profilePhoto img {
+  width: 20rem;
+  height: 100%;
+}
+.cHeader .chatBox .leftChat .profileMenu .profileName {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 2rem 3rem;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  margin-bottom: 2rem;
+}
+.cHeader .chatBox .leftChat .profileMenu .profileName p {
+  color: #037F67;
+  margin-bottom: 2rem;
+  font-size: 14px;
+}
+.cHeader .chatBox .leftChat .profileMenu .profileName .pName {
+  display: flex;
+  justify-content: space-between;
+}
+.cHeader .chatBox .leftChat .profileMenu .profileName .pName svg {
+  width: 24px;
+  height: auto;
+  color: #54656F;
+}
+.cHeader .chatBox .leftChat .profileMenu .profileName .pName h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.cHeader .chatBox .leftChat .profileActive {
+  left: 0;
+}
+.cHeader .chatBox .leftChat .leftHeader {
+  height: 59x;
+  background-color: #f9fafc;
+}
+.cHeader .chatBox .leftChat .leftHeader .usersSection .searchbar {
+  height: 49px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e9edef;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 7px 16px;
+}
+.cHeader .chatBox .leftChat .leftHeader .usersSection .searchbar span svg {
+  width: 20px;
+  height: 20px;
+  color: #54656F;
+  margin-left: 16px;
+}
+.cHeader .chatBox .leftChat .leftHeader .usersSection .searchbar form {
+  flex: 1;
+  height: 35px;
+  background-color: #f9fafc;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.cHeader .chatBox .leftChat .leftHeader .usersSection .searchbar form input {
+  width: 100%;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  background: transparent;
+}
+.cHeader .chatBox .leftChat .leftHeader .usersSection .searchbar form input::-moz-placeholder {
+  color: #54656F;
+  font-weight: 200;
+  letter-spacing: 0.1px;
+}
+.cHeader .chatBox .leftChat .leftHeader .usersSection .searchbar form input::placeholder {
+  color: #54656F;
+  font-weight: 200;
+  letter-spacing: 0.1px;
+}
+.cHeader .chatBox .leftChat .leftHeader .usersSection .searchbar form button {
+  border: none;
+  display: flex;
+  outline: none;
+  margin-right: 3rem;
+  margin-left: 2rem;
+}
+.cHeader .chatBox .leftChat .leftHeader .usersSection .searchbar form button svg {
+  width: 20px;
+  height: 20px;
+  color: #54656F;
+}
+.cHeader .chatBox .leftChat .leftHeader .menuNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 10px 16px;
+}
+.cHeader .chatBox .leftChat .leftHeader .menuNav .leftDiv {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #DFE5E7;
+  overflow: hidden;
+}
+.cHeader .chatBox .leftChat .leftHeader .menuNav .leftDiv img {
+  width: 40px;
+  height: auto;
+}
+.cHeader .chatBox .leftChat .leftHeader .menuNav .rightDiv {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+.cHeader .chatBox .leftChat .leftHeader .menuNav .rightDiv svg {
+  color: rgb(86, 85, 85);
+  width: 24px;
+  height: 24px;
+  color: #54656F;
+  cursor: pointer;
+}
+.cHeader .chatBox .leftChat .leftHeader .menuNav .rightDiv svg:nth-child(3) {
+  width: 20px;
+  height: 20px;
+}
+.cHeader .chatBox .rightChat {
+  flex-grow: 1;
+  border-left: 0.2px solid rgba(0, 0, 0, 0.14);
+  background-color: #f9fafc;
+}
+.cHeader .chatBox .rightChatting {
+  flex-grow: 1;
+  background: url(./images/bg.png), #EFEAE2;
+  background-size: 412.5px 749.25px;
+}
+.cHeader .chatBox .rightChatting .chatArea {
+  height: calc(100% - 121px);
+  overflow-y: scroll;
+}
+.cHeader .chatBox .rightChatting .chatArea .textSection {
+  padding: 0 63px;
+}
+.cHeader .chatBox .rightChatting .chatArea .textSection .textBox2 {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 60%;
+  padding: 8px;
+  margin-bottom: 3px;
+  word-break: break-all;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  border-radius: 4px;
+}
+.cHeader .chatBox .rightChatting .chatArea .textSection .textBox2 .pdfDiv {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+.cHeader .chatBox .rightChatting .chatArea .textSection .textBox2 svg {
+  color: rgb(86, 85, 85);
+  width: 24px;
+  height: 24px;
+  color: #54656F;
+  cursor: pointer;
+  border: 1px solid rgb(86, 85, 85);
+  border-radius: 50%;
+}
+.cHeader .chatBox .rightChatting .chatArea .textSection .textBox2 p {
+  color: #111b21;
+  font-size: 14.2px;
+  line-height: 19px;
+  font-weight: 400;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
+.cHeader .chatBox .rightChatting .chatArea .textSection .textBox2 span {
+  margin-top: auto;
+  margin-left: 6px;
+  word-break: keep-all;
+}
+.cHeader .chatBox .rightChatting .chatArea .textSection .textBox2 .imgSpan {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #fff;
+  margin-right: 5px;
+}
+.cHeader .chatBox .rightChatting .chatArea .textSection .textBox2 .imgSpan svg {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.cHeader .chatBox .rightChatting .chatArea .textSection .textBox1 {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #D9FDD3;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 60%;
+  padding: 8px;
+  word-break: break-all;
+  margin-left: auto;
+  margin-bottom: 3px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  border-radius: 4px;
+}
+.cHeader .chatBox .rightChatting .chatArea .textSection .textBox1 .pdfDiv {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+.cHeader .chatBox .rightChatting .chatArea .textSection .textBox1 p {
+  flex: 1;
+  color: #111b21;
+  font-size: 14.2px;
+  line-height: 19px;
+  font-weight: 400;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
+.cHeader .chatBox .rightChatting .chatArea .textSection .textBox1 svg {
+  color: rgb(86, 85, 85);
+  width: 24px;
+  height: 24px;
+  color: #54656F;
+  cursor: pointer;
+  border: 1px solid rgb(86, 85, 85);
+  border-radius: 50%;
+}
+.cHeader .chatBox .rightChatting .chatArea .textSection .textBox1 span {
+  margin-top: auto;
+  margin-left: 6px;
+  word-break: keep-all;
+  z-index: 100;
+}
+.cHeader .chatBox .rightChatting .chatArea .textSection .textBox1 .imgSpan {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #fff;
+  margin-right: 5px;
+}
+.cHeader .chatBox .rightChatting .chatArea .textSection .textBox1 .imgSpan svg {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.cHeader .chatBox .rightChatting footer {
+  height: 62px;
+  background-color: #f9fafc;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-left: 0.2px solid rgba(0, 0, 0, 0.14);
+}
+.cHeader .chatBox .rightChatting footer .leftF {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 2rem;
+}
+.cHeader .chatBox .rightChatting footer .leftF input {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  margin-right: 2rem;
+}
+.cHeader .chatBox .rightChatting footer .leftF input::-moz-placeholder {
+  color: #54656F;
+  font-weight: 200;
+  letter-spacing: 0.1px;
+}
+.cHeader .chatBox .rightChatting footer .leftF input::placeholder {
+  color: #54656F;
+  font-weight: 200;
+  letter-spacing: 0.1px;
+}
+.cHeader .chatBox .rightChatting footer .leftF span svg {
+  width: 26px;
+  height: 26px;
+  color: #54656F;
+}
+.cHeader .chatBox .rightChatting footer .leftF span:nth-child(2) svg {
+  width: 22px;
+  height: 22px;
+}
+.cHeader .chatBox .rightChatting footer .rightF span svg {
+  width: 26px;
+  height: 26px;
+  color: #54656F;
+}
+.cHeader .chatBox .rightChatting .rightHeader {
+  height: 59px;
+  background-color: #f9fafc;
+  padding: 10px 16px;
+  border-left: 0.2px solid rgba(0, 0, 0, 0.14);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cHeader .chatBox .rightChatting .rightHeader .leftDiv {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.cHeader .chatBox .rightChatting .rightHeader .leftDiv span {
+  font-size: 16px;
+}
+.cHeader .chatBox .rightChatting .rightHeader .leftDiv span:nth-child(2) {
+  font-size: 13px !important;
+  color: #667781;
+}
+.cHeader .chatBox .rightChatting .rightHeader .leftDiv .leftStatus {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.cHeader .chatBox .rightChatting .rightHeader .leftDiv .leftImg {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #DFE5E7;
+}
+.cHeader .chatBox .rightChatting .rightHeader .leftDiv .leftImg img {
+  width: 40px;
+  height: auto;
+}
+.cHeader .chatBox .rightChatting .rightHeader .rightDiv {
+  display: flex;
+  gap: 3.5rem;
+}
+.cHeader .chatBox .rightChatting .rightHeader .rightDiv svg:nth-child(2) {
+  margin-right: 1rem;
+}
+.cHeader .chatBox .rightChatting .rightHeader .rightDiv svg {
+  width: 24px;
+  height: auto;
+  color: #54656F;
+}
+
+.eChat {
+  height: 100%;
+}
+.eChat .etop {
+  height: 100%;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.eChat .etop .line {
+  position: absolute;
+  bottom: 0;
+  height: 6px;
+  background-color: #25d366;
+  width: 100%;
+}
+.eChat .etop img {
+  width: 340px;
+  height: auto;
+}
+.eChat .etop h1 {
+  font-size: 32px;
+  font-weight: 200;
+  color: #41525d;
+}
+.eChat .etop p {
+  text-align: center;
+  font-size: 14px;
+  color: #667781;
+  font-weight: 200;
+  line-height: 20px;
+}
+
+.diologFlex {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+.diologFlex .mentionDiv {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.diologFlex .mentionDiv span {
+  font-size: 16px;
+}
+.diologFlex .mentionDiv .mentionImg {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.diologFlex .mentionDiv .mentionImg img {
+  width: 60px;
+  height: 100%;
+}
+
+.conversation {
+  height: 72px;
+  padding: 10px 16px;
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+}
+.conversation .conDiv {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.conversation .conDiv .lDiv {
+  margin-right: 16px;
+}
+.conversation .conDiv .lDiv .lImage {
+  width: 49px;
+  height: 49px;
+  background-color: #DFE5E7;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.conversation .conDiv .lDiv .lImage img {
+  width: 49px;
+  height: auto;
+}
+.conversation .conDiv .rDiv {
+  width: 100%;
+  display: flex;
+  height: 72px;
+  border-bottom: 1px solid #e9edef;
+  justify-content: space-between;
+  align-items: center;
+}
+.conversation .conDiv .rDiv .lItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.conversation .conDiv .rDiv .lItem span {
+  font-size: 17px;
+  line-height: 21px;
+  color: #111b21;
+  font-weight: 400;
+}
+
+@media (max-width: 450px) {
+  .main-page .main-item .sub-heading {
+    font-size: 15px;
+  }
+}
+@media (max-width: 600px) {
+  .verification-section .vDiv .vItems .vSubHeading {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1080px) {
+  .cHeader .chatBox .leftChat {
+    min-width: 350px;
+  }
+  .cHeader .chatBox {
+    overflow-x: scroll;
+  }
+  .textSection .textBox1 img {
+    width: 250px !important;
+  }
+  .textSection .textBox2 img {
+    width: 250px !important;
+  }
+  .textSection .textBox1 .pdfDiv img {
+    width: 60px !important;
+  }
+  .textSection .textBox2 .pdfDiv img {
+    width: 60px !important;
+  }
+  .cHeader .chatBox .rightChatting {
+    min-width: 400px;
+  }
+}
+@media (max-width: 850px) {
+  .cHeader .chatBox .rightChatting .chatArea .textSection {
+    padding: 0 30px;
+  }
+  .cHeader .chatBox .rightChatting .chatArea .textSection .textBox1 {
+    max-width: 400px;
+  }
+  .cHeader .chatBox .rightChatting .chatArea .textSection .textBox2 {
+    max-width: 400px;
+  }
+  .eChat .etop p {
+    margin: 0 2rem;
+  }
+  .eChat .etop img {
+    width: 280px;
+    height: auto;
+  }
+  .cHeader .chatBox .rightChat {
+    min-width: 400px;
+  }
+}
+@media (max-width: 760px) {
+  .eChat .etop p {
+    max-width: 250px;
+  }
+  .eChat .etop p:nth-child(1) {
+    margin-bottom: 2rem;
+  }
+}/*# sourceMappingURL=App.css.map */
